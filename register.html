@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="color.css">
+	<title>Register</title>
+</head>
+<body>
+    
+    <div class="div1">
+    	<form action="">
+    		<h1 style="text-align: center;">Sign up</h1>
+    		
+    		<div class="User">
+    			<label>Username</label>
+    			<input type="text" name="Username" placeholder="Username" required>
+    		</div>
+    		
+    		<div class="User">
+    			<label>Email</label>
+    			<input type="email" name="Email" placeholder="Email" required>
+    		</div>
+    		
+    		<div class="User">
+    			<label>Password</label>
+    			<input type="password" name="password" placeholder="Password" required>
+    		</div>
+    		
+    		<div class="User">
+    			<label>Age</label>
+    			<input type="number" name="Age" placeholder="Age" required>
+    			
+    		</div>
+    		<h3>Gender</h3>
+    		<br>
+    		<div class="inform">
+    			<input type="radio" name="Gender" value="male">
+    			<label>Male</label>
+    			<input type="radio" name="Gender" value="female">
+    			<label>Female</label>
+    			<input type="radio" name="Gender" value="others">
+    			<label>others</label>
+    		</div>
+    		
+    		<h4 class="head">Select your favoriate food</h4>
+    		<div class="User">
+    			<input list="cars">
+    			<datalist id="cars">
+    				<option value="Biryani">Biryani</option>
+    				<option value="Noodles">Noodles</option>
+    				<option value="Pasta">Pasta</option>
+    				<option value="Panipuri">Panipuri</option>
+    				<option value="other">Other</option>
+    			</datalist>
+    		</div>
+    		
+    		<h4 class="head">Select your state</h4>
+    		<div class="User">
+    			<input list="Country">
+    			<datalist id="Country">
+    				<option value="Andhra Pradesh">Andhra Pradesh</option>
+    				<option value="Telangana">Telangana</option>
+    				<option value="TamilNadu">TamilNadu</option>
+    				<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    				<option value="Kolkata">Kolkata</option>
+    				<option value="other">Other</option>
+    			</datalist>
+    		</div>
+    		<h3>Enter your phone number</h3>
+    		<div class="User">
+    			
+    			<input type="text" name="phone" size="25" pattern="[0-9]{4}-[0-9]{6}" placeholder="1234-567890" required>
+    		</div>
+
+    			<input type="submit" name="submit" class="button">
+    			<input type="button" name="clear all" value="clear all" class="button">
+    		
+    	</form>
+    </div>
+</body>
+</html>

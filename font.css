@@ -1,0 +1,251 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	overflow-x: hidden;
+}
+.nav-bar a{
+	text-decoration: none;
+	color:rgba(255, 255, 0, 0.966);
+	font-size:20px;
+}
+.app a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 60vh;
+	overflow: hidden;
+	position: relative;
+	object-fit: cover;
+	margin-bottom: 2vh;
+}
+.header-img{
+	position: absolute;
+	top: -10vh;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+}
+.one{
+	display: flex;
+	justify-content:space-between;
+	margin: 1vh;
+	list-style: none;
+	color: white;
+	font-size: 1em;
+	font-family:arial,sans-serif;
+}
+.nav-bar{
+	display: flex;
+}
+.nav-bar li{
+	font-size: 1em;
+	font-family: arial,sans-serif;
+	font-weight: lighter;
+	padding-left: 30px;
+	list-style-type: none;
+}
+.head h2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1vh;
+	align-items: center;
+}
+.head .new{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 2vh;
+	align-items: center;
+	font-size: 2.3em;
+	color: whitesmoke;
+	font-family: lighter;
+	font-family: arial,sans-serif;
+}
+.search .add{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 30vw;
+	justify-content:space-between;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.section{
+	display: flex;
+	justify-content: center;
+	margin: 13vh;
+
+}
+.heading{
+	margin: 10vh;
+	font-size: 30px;
+}
+.box{
+	position: relative;
+	width: 250px;
+	margin: 3px 5px;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0 1px 2px;
+	background-color: rgb(243,240,240);
+}
+.box img{
+	width: 100%;
+	border-radius: 15px;
+	border: 1px solid gray;
+	z-index: -1;
+}
+.white{
+	position: absolute;
+	bottom: 3px;
+	align-items: center;
+	border-radius: 0 0 15px 15px;
+	background-color: white;
+	width: 100%;
+	height: 25%;
+	z-index: 2;
+}
+.white p{
+	text-align: center;
+	font-family: arial sans-serif;
+	font-size: 1em;
+	color: rgb(50,50,50);
+	letter-spacing: 0.7px; 
+
+}
+.middle{
+	align-items: center;
+	margin:20vh;
+}
+
+.section-2 h2{
+	font-size: 2.7em;
+	font-weight: lighter;
+
+}
+.section-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section-2 h6{
+	margin: 0;
+	font-size: 1.0em;
+	font-weight: lighter;
+	color: gray;
+}
+.fa-caret-right ,section-2 span{
+       color: rgb(240, 117, 117);
+}
+.box-1{
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 10px;
+	margin: 3px 5px;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.box-1 div{
+	position: absolute;
+	background: linear-gradient(transparent,black);
+	width: 100%;
+	height: 25%;
+	bottom: 0;
+}
+.box-1 div span{
+	display: inline-block;
+	color: white;
+	padding-left: 15px;
+	font-size: 1em;
+	padding-bottom: 5px;
+}
+.box-1 img{
+	width: 250px;
+	height: 300px;
+	object-fit: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
+
+}
+.section-3{
+	display: inline-flex;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	justify-content: space-between;
+}
+
+.section-4 h1{
+    font-size: 2.4em;
+    font-weight: lighter;
+}
+.box-2 .choice{
+	align-items: center;
+	width: 35vw;
+	justify-content:space-between;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px 0;
+	text-align: center;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.box-3 .choice{
+	align-items: center;
+	width: 35vw;
+	justify-content:space-between;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px 0;
+	text-align: center;
+	height: 50px;
+	margin-bottom: 30px;
+}
+.round1 h2{
+	margin: 20vh;
+	font-size: 40px;
+}
+.round1 .round{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	margin: 20vh;
+}
+.rou img{
+	border-radius:100vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+.rou p{
+	text-align: center;
+}
+footer{
+	background-color: black;
+	height:80px;
+	text-align: center;
+	padding-top: 90px;
+}
+.foot{
+	color: white;
+	font-size: 20px;
+	font-family: arial,sans-serif;
+	text-align: center;
+	width: 90vw;
+}
